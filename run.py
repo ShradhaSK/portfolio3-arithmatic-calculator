@@ -17,7 +17,6 @@ def validate_option(option):
     raises valueError if a value other than
     the ones mentioned in the print statement is entered
     """
-    # print(values)
     try:
         options = ['h', 'x', '+', '-', '*', '/']
         if option not in options:
@@ -30,4 +29,8 @@ def validate_option(option):
 
     return True
 
-option = get_numbers_input()
+
+
+def main():
+
+    option = get_numbers_input()
